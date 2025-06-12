@@ -1,0 +1,29 @@
+.sequence__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+  
+.sequence__row {
+    display: inline;
+    white-space: pre-wrap;
+    word-break: break-word;
+    font-family: monospace;
+}
+  
+.sequence__item-wrapper {
+    display: contents; /* сохраняет inline для Ctrl+F */
+}
+  
+.sequence__item {
+    position: relative;
+    display: inline;
+    padding: 2px 4px;
+    font-size: 18px;
+    border-radius: 2px;
+}
+
+.sequence__first {
+    margin-bottom: 4px;
+}

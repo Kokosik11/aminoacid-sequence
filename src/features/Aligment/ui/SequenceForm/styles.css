@@ -1,0 +1,10 @@
+.sequence-form__container {
+    display: flex;
+    align-items: center;
+    width: 100%; 
+}
+
+.sequence-form__card {
+    max-width: 350px;
+    width: 100%;
+}
